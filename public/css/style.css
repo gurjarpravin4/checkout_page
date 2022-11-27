@@ -1,0 +1,157 @@
+body{
+   font-family: 'Gotham Pro', sans-serif;
+   font-weight: 100;
+   font-style: normal;
+   margin-top: 0px;
+   margin-left: 0px;
+   margin-right: 0px;
+   margin-bottom: 0px;
+}
+
+/* Navigation bar */
+.bg-light{
+   border-bottom: 1.5px solid;
+   border-color: #cbced7;
+   padding: 14px 0px 15px 14px;
+}
+
+/* Address bar */
+.address-bar{
+   margin-top: 2%;
+   margin-left: 1.5%;
+   color: #aba9a9;
+}
+.address-link, .address-link:visited{
+   color: #52B5F4;
+   letter-spacing: 0.02rem;
+   text-decoration: none;
+   
+}
+
+/* Main Body */
+.main-body{
+   margin-top: 2%;
+   margin-left: 1.5%;
+   color: #aba9a9;
+}
+.body-heading{
+   color: #102F50;
+   margin-bottom: 0;
+}
+.body-subheading{
+   color: #2B8AEB;
+   font-weight: 400;
+   margin-top: 10px;
+   margin-bottom: 60px;
+}
+
+.body-text{
+   margin-top: 15px;
+}
+
+.body-link, .body-link:visited{
+   color: #52B5F4;
+   letter-spacing: 0.02rem;
+   text-decoration: underline;
+   margin-top: 40px;
+   margin-bottom: 0px;
+}
+
+/* Timer */
+.timer-banner{
+   padding-left: 10px;
+   padding-right: 10px;
+   padding-top: 14px;
+   border-radius: 50px;
+   display: flex;
+   flex-direction: row;
+   flex-wrap: nowrap;
+   justify-content: space-between;
+   background-image: linear-gradient(to left, red, yellow);
+   color: black;
+}
+
+/* Making the timer responsive */
+@media screen and (max-width:760px) {
+   .timer-banner{
+      display: inline-block;
+      height: 190px;
+      width: 100%;
+      padding-left: 10px;
+      padding-right: 10px;
+      background-image: none;
+      background-color: lemonchiffon;
+      border: 1px solid;
+      border-color: yellow;
+      text-align: center;
+   }
+   .left-div, .center-div{
+      margin-bottom: 5%;
+   }
+}
+
+/* Features */
+.container{
+   float: right;
+}
+.alignment{
+   padding: 35px;
+   margin-left: auto;
+   margin-right: 25px;
+   margin-top: 10px;
+   margin-bottom: 10px;
+   border: 1.5px solid;
+   border-radius: 5%;
+}
+.feature-1-box{
+   border-color: #0FC962;
+   background-color: #F5FFFA;
+   color: #2B2C36;
+}
+.f1-head{
+   color: #0FC962;
+}
+.feature-1{
+   margin-bottom: 10px;
+}
+.icon{
+   display: inline;
+}
+
+.f1{
+   display: inline;
+   padding: 0px 14.5px;
+}
+.f1-subtext{
+   padding-left: 51.5px;
+}
+
+.f2-head{
+      text-align: center;
+      color: #2B2C36;
+      
+}
+.f2-subhead{
+   display: inline;
+   color: #0FC962;
+}
+.f2-line1{
+   padding-top: 10px;
+   padding-bottom: 0px
+}
+.f2-contents{
+   text-align: left;
+   margin: 10px auto;
+}
+.fa-check{
+   color: #0FC962;
+}
+ul{
+   padding-left: 0px;
+   margin-bottom: 0px;
+}
+
+.f3{
+   text-align: center;
+   padding-left: 0px;
+}
